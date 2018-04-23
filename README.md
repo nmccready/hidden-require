@@ -1,4 +1,4 @@
-# hidden-require [![Build Status](https://travis-ci.org/nmccreadu/hidden-require.svg)](https://travis-ci.org/nmcccready/hidden-require)
+# hidden-require [![Build Status](https://travis-ci.org/nmccready/hidden-require.svg)](https://travis-ci.org/nmccready/hidden-require)
 
 This library is intended at hiding and making some dependencies in node libraries optional when
 bundled in webpack/browserify.
