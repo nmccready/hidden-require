@@ -1,0 +1,37 @@
+{
+  "name": "hidden-require",
+  "version": "0.0.0",
+  "description": "stackless unless otherwise requested error",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint **/*.js && mocha test/*.test.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nmccready/hidden-require.git"
+  },
+  "author": "Nick McCready <nemtcan@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nmccready/hidden-require/issues"
+  },
+  "homepage": "https://github.com/nmccready/hidden-require#readme",
+  "devDependencies": {
+    "chai": "^3",
+    "eslint": "^4",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "mocha": "^5",
+    "prettier": "^1",
+    "prettier-eslint": "^8",
+    "unminified-webpack-plugin": "^2.0.0",
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.0.15"
+  }
+}
