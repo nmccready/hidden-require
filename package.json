@@ -4,7 +4,7 @@
   "description": "stackless unless otherwise requested error",
   "main": "index.js",
   "scripts": {
-    "test": "eslint **/*.js && mocha test/*.test.js"
+    "test": "eslint **/*.js && mocha --timeout 10000 test/*.test.js"
   },
   "files": [
     "index.js"
